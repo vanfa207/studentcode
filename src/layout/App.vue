@@ -42,7 +42,7 @@
           </div>
         </button>
 
-        <div :class="{ 'translate-x-0 opacity-100 transition-all duration-300': !isMenuOpen, 'translate-x-full opacity-0 transition-all duration-300': isMenuOpen }"
+        <div :class="{ 'translate-x-0 opacity-100 transition-all duration-300': isMenuOpen, 'translate-x-full opacity-0 transition-all duration-300': !isMenuOpen }"
               class="flex flex-col md:flex-row items-center gap-3 rounded-xl mt-2 bg-gray-200/70 hover:bg-gray-200/80 text-gray-800 border border-gray-200/50 backdrop-blur-sm dark:bg-gray-800/70 dark:border-gray-700/50 dark:text-white shadow-[0_0_8px_rgb(50_50_50)] dark:shadow-[0_0_8px_rgb(100_100_100)] font-semibold absolute md:static top-full left-0 w-full md:w-auto bg-gray-200 dark:bg-gray-800 md:bg-transparent p-4 md:p-0 transition-all duration-300">
           <router-link
             v-for="(item, index) in navLinks"
