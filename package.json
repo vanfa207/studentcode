@@ -1,0 +1,26 @@
+{
+  "name": "student_code",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "swiper": "^11.2.10",
+    "vue": "^3.5.17",
+    "vue-i18n": "^11.1.10",
+    "vue-router": "^4.5.1",
+    "vue3-marquee": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "sass-embedded": "^1.89.2",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.0.4"
+  }
+}
